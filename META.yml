@@ -21,4 +21,4 @@ requires:
   Dist::Zilla: 4.2
 resources:
   bugtracker: http://rt.cpan.org/NoAuth/ReportBug.html?Queue=Dist-Zilla-Plugin-LocalBrew
-version: 0.01
+version: 0.02

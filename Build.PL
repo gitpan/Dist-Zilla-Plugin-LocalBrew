@@ -18,7 +18,7 @@ my %module_build_args = (
     'Rob Hoelz <rob@hoelz.ro>'
   ],
   'dist_name' => 'Dist-Zilla-Plugin-LocalBrew',
-  'dist_version' => '0.01',
+  'dist_version' => '0.02',
   'license' => 'perl',
   'module_name' => 'Dist::Zilla::Plugin::LocalBrew',
   'recommends' => {},
