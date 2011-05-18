@@ -1,6 +1,6 @@
 package Dist::Zilla::Plugin::LocalBrew;
 BEGIN {
-  $Dist::Zilla::Plugin::LocalBrew::VERSION = '0.02'; # TRIAL
+  $Dist::Zilla::Plugin::LocalBrew::VERSION = '0.02';
 }
 
 use File::Spec;
@@ -113,7 +113,7 @@ version 0.02
 This plugin builds and tests your module with a set of given perlbrew
 environments before a release and aborts the release if testing in any
 of them fails.  Any dependencies are installed via cpanminus into
-a temporary local lib, so your Perlbrew environments aren't altered.
+a temporary local lib, so your perlbrew environments aren't altered.
 This comes in handy when you want to build against a set of "fresh" Perl
 installations (ie. those with only core modules) to make sure all of your
 prerequisites are included correctly.
