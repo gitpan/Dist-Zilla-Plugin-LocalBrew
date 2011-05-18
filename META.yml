@@ -1,0 +1,24 @@
+---
+abstract: 'Verify that your distribution tests well in a fresh perlbrew'
+author:
+  - 'Rob Hoelz <rob@hoelz.ro>'
+build_requires:
+  Module::Build: 0.3601
+  Test::More: 0
+configure_requires:
+  Module::Build: 0.3601
+dynamic_config: 0
+generated_by: 'Dist::Zilla version 4.200006, CPAN::Meta::Converter version 2.110440'
+license: perl
+meta-spec:
+  url: http://module-build.sourceforge.net/META-spec-v1.4.html
+  version: 1.4
+name: Dist-Zilla-Plugin-LocalBrew
+no_index:
+  directory:
+    - fake-distributions
+requires:
+  Dist::Zilla: 4.2
+resources:
+  bugtracker: http://rt.cpan.org/NoAuth/ReportBug.html?Queue=Dist-Zilla-Plugin-LocalBrew
+version: 0.01

@@ -1,0 +1,16 @@
+This archive contains the distribution Dist-Zilla-Plugin-LocalBrew,
+version 0.01:
+
+  Verify that your distribution tests well in a fresh perlbrew
+
+To test this distribution, you'll need network connectivity (or
+a local mirror of CPAN) and a "fresh" perlbrew environment.
+What I mean by fresh is that no non-core modules have been
+installed into it.  Once you have it, put their names
+into the TEST_PERLBREW environment variable.
+
+This software is copyright (c) 2011 by Rob Hoelz.
+
+This is free software; you can redistribute it and/or modify it under
+the same terms as the Perl 5 programming language system itself.
+
